@@ -1,6 +1,5 @@
 streamlit
 streamlit_option_menu
-option_menu
 pathlib
 Path
 pickle
