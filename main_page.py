@@ -1,6 +1,15 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 this = option_menu(
     menu_title = None,
     options=["Home", "Library", "My Loans"],
