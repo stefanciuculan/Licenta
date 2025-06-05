@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+/* reset de bază */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;          /* elimină stilurile implicite */
+  font: inherit;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;  /* prevenim bara orizontală */
+  overflow-y: auto;    /* permitem scroll vertical global */
+  background: #fdf1e0; /* culoarea fundal implicită a aplicației */
+}
+
+body, #root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
